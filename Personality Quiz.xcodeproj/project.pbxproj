@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF38CB222231EF36001667EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB212231EF36001667EE /* AppDelegate.swift */; };
+		EF38CB242231EF36001667EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB232231EF36001667EE /* ViewController.swift */; };
+		EF38CB272231EF36001667EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF38CB252231EF36001667EE /* Main.storyboard */; };
+		EF38CB292231EF38001667EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF38CB282231EF38001667EE /* Assets.xcassets */; };
+		EF38CB2C2231EF38001667EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF38CB2A2231EF38001667EE /* LaunchScreen.storyboard */; };
+		EF38CB372231EF38001667EE /* Personality_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB362231EF38001667EE /* Personality_QuizTests.swift */; };
+		EF38CB422231EF38001667EE /* Personality_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB412231EF38001667EE /* Personality_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF38CB332231EF38001667EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF38CB162231EF36001667EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF38CB1D2231EF36001667EE;
+			remoteInfo = "Personality Quiz";
+		};
+		EF38CB3E2231EF38001667EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF38CB162231EF36001667EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF38CB1D2231EF36001667EE;
+			remoteInfo = "Personality Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF38CB1E2231EF36001667EE /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38CB212231EF36001667EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF38CB232231EF36001667EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF38CB262231EF36001667EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF38CB282231EF38001667EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF38CB2B2231EF38001667EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF38CB2D2231EF38001667EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF38CB322231EF38001667EE /* Personality QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38CB362231EF38001667EE /* Personality_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_QuizTests.swift; sourceTree = "<group>"; };
+		EF38CB382231EF38001667EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF38CB3D2231EF38001667EE /* Personality QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38CB412231EF38001667EE /* Personality_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_QuizUITests.swift; sourceTree = "<group>"; };
+		EF38CB432231EF38001667EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF38CB1B2231EF36001667EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38CB2F2231EF38001667EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38CB3A2231EF38001667EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF38CB152231EF36001667EE = {
+			isa = PBXGroup;
+			children = (
+				EF38CB202231EF36001667EE /* Personality Quiz */,
+				EF38CB352231EF38001667EE /* Personality QuizTests */,
+				EF38CB402231EF38001667EE /* Personality QuizUITests */,
+				EF38CB1F2231EF36001667EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF38CB1F2231EF36001667EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF38CB1E2231EF36001667EE /* Personality Quiz.app */,
+				EF38CB322231EF38001667EE /* Personality QuizTests.xctest */,
+				EF38CB3D2231EF38001667EE /* Personality QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF38CB202231EF36001667EE /* Personality Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				EF38CB212231EF36001667EE /* AppDelegate.swift */,
+				EF38CB232231EF36001667EE /* ViewController.swift */,
+				EF38CB252231EF36001667EE /* Main.storyboard */,
+				EF38CB282231EF38001667EE /* Assets.xcassets */,
+				EF38CB2A2231EF38001667EE /* LaunchScreen.storyboard */,
+				EF38CB2D2231EF38001667EE /* Info.plist */,
+			);
+			path = "Personality Quiz";
+			sourceTree = "<group>";
+		};
+		EF38CB352231EF38001667EE /* Personality QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF38CB362231EF38001667EE /* Personality_QuizTests.swift */,
+				EF38CB382231EF38001667EE /* Info.plist */,
+			);
+			path = "Personality QuizTests";
+			sourceTree = "<group>";
+		};
+		EF38CB402231EF38001667EE /* Personality QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF38CB412231EF38001667EE /* Personality_QuizUITests.swift */,
+				EF38CB432231EF38001667EE /* Info.plist */,
+			);
+			path = "Personality QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF38CB1D2231EF36001667EE /* Personality Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF38CB462231EF38001667EE /* Build configuration list for PBXNativeTarget "Personality Quiz" */;
+			buildPhases = (
+				EF38CB1A2231EF36001667EE /* Sources */,
+				EF38CB1B2231EF36001667EE /* Frameworks */,
+				EF38CB1C2231EF36001667EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personality Quiz";
+			productName = "Personality Quiz";
+			productReference = EF38CB1E2231EF36001667EE /* Personality Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF38CB312231EF38001667EE /* Personality QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF38CB492231EF38001667EE /* Build configuration list for PBXNativeTarget "Personality QuizTests" */;
+			buildPhases = (
+				EF38CB2E2231EF38001667EE /* Sources */,
+				EF38CB2F2231EF38001667EE /* Frameworks */,
+				EF38CB302231EF38001667EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF38CB342231EF38001667EE /* PBXTargetDependency */,
+			);
+			name = "Personality QuizTests";
+			productName = "Personality QuizTests";
+			productReference = EF38CB322231EF38001667EE /* Personality QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF38CB3C2231EF38001667EE /* Personality QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF38CB4C2231EF38001667EE /* Build configuration list for PBXNativeTarget "Personality QuizUITests" */;
+			buildPhases = (
+				EF38CB392231EF38001667EE /* Sources */,
+				EF38CB3A2231EF38001667EE /* Frameworks */,
+				EF38CB3B2231EF38001667EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF38CB3F2231EF38001667EE /* PBXTargetDependency */,
+			);
+			name = "Personality QuizUITests";
+			productName = "Personality QuizUITests";
+			productReference = EF38CB3D2231EF38001667EE /* Personality QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF38CB162231EF36001667EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hannah Leland";
+				TargetAttributes = {
+					EF38CB1D2231EF36001667EE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF38CB312231EF38001667EE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF38CB1D2231EF36001667EE;
+					};
+					EF38CB3C2231EF38001667EE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF38CB1D2231EF36001667EE;
+					};
+				};
+			};
+			buildConfigurationList = EF38CB192231EF36001667EE /* Build configuration list for PBXProject "Personality Quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF38CB152231EF36001667EE;
+			productRefGroup = EF38CB1F2231EF36001667EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF38CB1D2231EF36001667EE /* Personality Quiz */,
+				EF38CB312231EF38001667EE /* Personality QuizTests */,
+				EF38CB3C2231EF38001667EE /* Personality QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF38CB1C2231EF36001667EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38CB2C2231EF38001667EE /* LaunchScreen.storyboard in Resources */,
+				EF38CB292231EF38001667EE /* Assets.xcassets in Resources */,
+				EF38CB272231EF36001667EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38CB302231EF38001667EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38CB3B2231EF38001667EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF38CB1A2231EF36001667EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38CB242231EF36001667EE /* ViewController.swift in Sources */,
+				EF38CB222231EF36001667EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38CB2E2231EF38001667EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38CB372231EF38001667EE /* Personality_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF38CB392231EF38001667EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF38CB422231EF38001667EE /* Personality_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF38CB342231EF38001667EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF38CB1D2231EF36001667EE /* Personality Quiz */;
+			targetProxy = EF38CB332231EF38001667EE /* PBXContainerItemProxy */;
+		};
+		EF38CB3F2231EF38001667EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF38CB1D2231EF36001667EE /* Personality Quiz */;
+			targetProxy = EF38CB3E2231EF38001667EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF38CB252231EF36001667EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF38CB262231EF36001667EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF38CB2A2231EF38001667EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF38CB2B2231EF38001667EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF38CB442231EF38001667EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF38CB452231EF38001667EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF38CB472231EF38001667EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = "Personality Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Personality-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF38CB482231EF38001667EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = "Personality Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Personality-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF38CB4A2231EF38001667EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = "Personality QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Personality-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personality Quiz.app/Personality Quiz";
+			};
+			name = Debug;
+		};
+		EF38CB4B2231EF38001667EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = "Personality QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Personality-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personality Quiz.app/Personality Quiz";
+			};
+			name = Release;
+		};
+		EF38CB4D2231EF38001667EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = "Personality QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Personality-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personality Quiz";
+			};
+			name = Debug;
+		};
+		EF38CB4E2231EF38001667EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = "Personality QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Personality-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personality Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF38CB192231EF36001667EE /* Build configuration list for PBXProject "Personality Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38CB442231EF38001667EE /* Debug */,
+				EF38CB452231EF38001667EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF38CB462231EF38001667EE /* Build configuration list for PBXNativeTarget "Personality Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38CB472231EF38001667EE /* Debug */,
+				EF38CB482231EF38001667EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF38CB492231EF38001667EE /* Build configuration list for PBXNativeTarget "Personality QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38CB4A2231EF38001667EE /* Debug */,
+				EF38CB4B2231EF38001667EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF38CB4C2231EF38001667EE /* Build configuration list for PBXNativeTarget "Personality QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF38CB4D2231EF38001667EE /* Debug */,
+				EF38CB4E2231EF38001667EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF38CB162231EF36001667EE /* Project object */;
+}
