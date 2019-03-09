@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		EF38CB222231EF36001667EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB212231EF36001667EE /* AppDelegate.swift */; };
-		EF38CB242231EF36001667EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB232231EF36001667EE /* ViewController.swift */; };
+		EF38CB242231EF36001667EE /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB232231EF36001667EE /* IntroductionViewController.swift */; };
 		EF38CB272231EF36001667EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF38CB252231EF36001667EE /* Main.storyboard */; };
 		EF38CB292231EF38001667EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF38CB282231EF38001667EE /* Assets.xcassets */; };
 		EF38CB2C2231EF38001667EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF38CB2A2231EF38001667EE /* LaunchScreen.storyboard */; };
 		EF38CB372231EF38001667EE /* Personality_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB362231EF38001667EE /* Personality_QuizTests.swift */; };
 		EF38CB422231EF38001667EE /* Personality_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB412231EF38001667EE /* Personality_QuizUITests.swift */; };
+		EF38CB502231F37C001667EE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB4F2231F37C001667EE /* Result.swift */; };
+		EF38CB5222341281001667EE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB5122341280001667EE /* QuestionViewController.swift */; };
+		EF38CB542234128E001667EE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB532234128E001667EE /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		EF38CB1E2231EF36001667EE /* Personality Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personality Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF38CB212231EF36001667EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF38CB232231EF36001667EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF38CB232231EF36001667EE /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		EF38CB262231EF36001667EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF38CB282231EF38001667EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF38CB2B2231EF38001667EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		EF38CB3D2231EF38001667EE /* Personality QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personality QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF38CB412231EF38001667EE /* Personality_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality_QuizUITests.swift; sourceTree = "<group>"; };
 		EF38CB432231EF38001667EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF38CB4F2231F37C001667EE /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EF38CB5122341280001667EE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		EF38CB532234128E001667EE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				EF38CB212231EF36001667EE /* AppDelegate.swift */,
-				EF38CB232231EF36001667EE /* ViewController.swift */,
+				EF38CB232231EF36001667EE /* IntroductionViewController.swift */,
 				EF38CB252231EF36001667EE /* Main.storyboard */,
 				EF38CB282231EF38001667EE /* Assets.xcassets */,
 				EF38CB2A2231EF38001667EE /* LaunchScreen.storyboard */,
 				EF38CB2D2231EF38001667EE /* Info.plist */,
+				EF38CB4F2231F37C001667EE /* Result.swift */,
+				EF38CB5122341280001667EE /* QuestionViewController.swift */,
+				EF38CB532234128E001667EE /* ResultViewController.swift */,
 			);
 			path = "Personality Quiz";
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF38CB242231EF36001667EE /* ViewController.swift in Sources */,
+				EF38CB542234128E001667EE /* ResultViewController.swift in Sources */,
+				EF38CB502231F37C001667EE /* Result.swift in Sources */,
+				EF38CB242231EF36001667EE /* IntroductionViewController.swift in Sources */,
+				EF38CB5222341281001667EE /* QuestionViewController.swift in Sources */,
 				EF38CB222231EF36001667EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MSFUL3GV9D;
 				INFOPLIST_FILE = "Personality Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MSFUL3GV9D;
 				INFOPLIST_FILE = "Personality Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
