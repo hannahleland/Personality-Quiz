@@ -17,6 +17,7 @@
 		EF38CB502231F37C001667EE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB4F2231F37C001667EE /* Result.swift */; };
 		EF38CB5222341281001667EE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB5122341280001667EE /* QuestionViewController.swift */; };
 		EF38CB542234128E001667EE /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38CB532234128E001667EE /* ResultViewController.swift */; };
+		EFD2C2262234289700CEFF15 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2C2252234289700CEFF15 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EF38CB4F2231F37C001667EE /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		EF38CB5122341280001667EE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		EF38CB532234128E001667EE /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		EFD2C2252234289700CEFF15 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				EF38CB212231EF36001667EE /* AppDelegate.swift */,
-				EF38CB232231EF36001667EE /* IntroductionViewController.swift */,
 				EF38CB252231EF36001667EE /* Main.storyboard */,
 				EF38CB282231EF38001667EE /* Assets.xcassets */,
 				EF38CB2A2231EF38001667EE /* LaunchScreen.storyboard */,
 				EF38CB2D2231EF38001667EE /* Info.plist */,
-				EF38CB4F2231F37C001667EE /* Result.swift */,
-				EF38CB5122341280001667EE /* QuestionViewController.swift */,
-				EF38CB532234128E001667EE /* ResultViewController.swift */,
+				EF4F8E7A22357A6A003E486E /* Models */,
+				EF4F8E7922357A39003E486E /* Controllers */,
 			);
 			path = "Personality Quiz";
 			sourceTree = "<group>";
@@ -132,6 +132,25 @@
 				EF38CB432231EF38001667EE /* Info.plist */,
 			);
 			path = "Personality QuizUITests";
+			sourceTree = "<group>";
+		};
+		EF4F8E7922357A39003E486E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF38CB232231EF36001667EE /* IntroductionViewController.swift */,
+				EF38CB5122341280001667EE /* QuestionViewController.swift */,
+				EF38CB532234128E001667EE /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EF4F8E7A22357A6A003E486E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF38CB4F2231F37C001667EE /* Result.swift */,
+				EFD2C2252234289700CEFF15 /* QuestionData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +287,7 @@
 				EF38CB542234128E001667EE /* ResultViewController.swift in Sources */,
 				EF38CB502231F37C001667EE /* Result.swift in Sources */,
 				EF38CB242231EF36001667EE /* IntroductionViewController.swift in Sources */,
+				EFD2C2262234289700CEFF15 /* QuestionData.swift in Sources */,
 				EF38CB5222341281001667EE /* QuestionViewController.swift in Sources */,
 				EF38CB222231EF36001667EE /* AppDelegate.swift in Sources */,
 			);
