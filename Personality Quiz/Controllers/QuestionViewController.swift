@@ -10,8 +10,11 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     
+    // global identifiers
     var questionIndex = 0
+    var answersChosen : [Answer] = []
     
+    // UI outlets
     @IBOutlet weak var questionLabel: UILabel!
     
     @IBOutlet weak var rangedStackView: UIStackView!
@@ -115,8 +118,6 @@ class QuestionViewController: UIViewController {
     } // end func updateRangedStack
     
     
-    var answersChosen : [Answer] = []
-    
     @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
         let currentAnswers = questions[questionIndex].answers
         
@@ -141,7 +142,9 @@ class QuestionViewController: UIViewController {
     } // end IBAction singleAnswerButtonPressed
     
     
-    @IBAction func multipleAnswerButtonPressed(_ sender: Any) {
+    
+    
+    @IBAction func multipleAnswerButtonPressed(_ sender: UIButton) {
         let currentAnswers = questions[questionIndex].answers
         
         if multiSwitch1.isOn {

@@ -46,10 +46,6 @@ class ResultViewController: UIViewController {
     } // end func calculatePersonalityResult
     
     
-    @IBAction func doneButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: "unwindToBeginningWithSegue", sender: self)
-    }
-    
     
     /*
     // MARK: - Navigation

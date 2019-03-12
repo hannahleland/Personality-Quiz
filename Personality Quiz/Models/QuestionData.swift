@@ -54,14 +54,14 @@ var questions : [Question] = [
                 Answer(text: "Moving Vehicle", type: .type5),
                 Answer(text: "Kitchen Table", type: .type6)
                       ]),
-    Question(text: "Choose the best color.", type: .single,
+    Question(text: "Which emoji do you identify with?", type: .multiple,
              answers: [
-                Answer(text: "Color1", type: .type1),
-                Answer(text: "Color2", type: .type2),
-                Answer(text: "Color3", type: .type3),
-                Answer(text: "Color4", type: .type4),
-                Answer(text: "Color5", type: .type5),
-                Answer(text: "Color6", type: .type6)
+                Answer(text: "😋", type: .type1),
+                Answer(text: "😈", type: .type2),
+                Answer(text: "🤔", type: .type3),
+                Answer(text: "😘", type: .type4),
+                Answer(text: "🤬", type: .type5),
+                Answer(text: "😴", type: .type6)
                       ]),
     Question(text: "What is your handwriting like?", type: .ranged,
              answers: [
@@ -69,7 +69,7 @@ var questions : [Question] = [
                 Answer(text: "Hieroglyphics", type: .type3),
                 Answer(text: "All Caps", type: .type1),
                 Answer(text: "Comic Sans", type: .type2),
-                Answer(text: "Typewritter", type: .type5),
+                Answer(text: "Typewriter", type: .type5),
                 Answer(text: "Calligraphy", type: .type6)
         ]),
     Question(text: "What is most important to you when choosing work?", type: .single,
