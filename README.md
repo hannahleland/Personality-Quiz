@@ -22,5 +22,7 @@ App's purpose is to help user discover their true nature. Quiz presents six answ
 ## Specifications
 
 Swift 4
+
 Deployment Target: 11.3
+
 XCode: 10.1
