@@ -1,4 +1,4 @@
-# Personality-Quiz
+# Personality Quiz
 
 Simple quiz to discover which programming language matches your personality.
 </br>
