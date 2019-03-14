@@ -1,6 +1,7 @@
 # Personality Quiz
 
 Simple quiz to discover which programming language matches your personality.
+Based on the Personality Quiz guided project in chapter 4 of *Everyone Can Code App Development With Swift - Swift 4 Version.*
 </br>
 </br>
 
